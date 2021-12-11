@@ -34,8 +34,8 @@ header {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   padding-top: 10mm;
-  padding-right: 100mm;
-  padding-left: 100mm;
+  max-width: 70%;
+  margin: 0 auto;
 }
 #challenger {
   font-family: "Barlow Condensed", sans-serif;
@@ -47,12 +47,56 @@ header {
 }
 .survey {
   background-color: rgba(0, 0, 0, 0.342);
-  margin-left: 500px;
-  margin-right: 500px;
+  margin: 0 auto;
+  width: 60%;
   border-radius: 5%;
   margin-bottom: 20px;
 }
 .titles {
   font-size: 50px;
-  margin-bottom: -3px;
+  margin-bottom: 1rem;
+}
+
+input {
+  font-size: 1rem;
+  outline: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 10px 5px;
+  background-color: transparent;
+  border: 1px solid #1b9235;
+  color: white;
+  transition: 0.2s;
+}
+
+input::placeholder {
+  color: white;
+}
+
+/* Target every input element that is NOT type radio */
+input:not([type="radio"]):focus {
+  box-shadow: 0 0 10px 4px #2fd955;
+}
+
+button {
+  border: 1px solid #1b9235;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: 0.2s;
+  font-size: 1.4rem;
+  background-color: transparent;
+  font-weight: 800;
+  color: white;
+  background-color: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 0 10px 4px #2fd955;
+  background-color: #17862f;
+}
+
+button:active {
+  transform: scale(0.98);
 }
