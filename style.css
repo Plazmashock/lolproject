@@ -51,6 +51,7 @@ header {
   width: 60%;
   border-radius: 5%;
   margin-bottom: 20px;
+  backdrop-filter: blur(5px);
 }
 .titles {
   font-size: 50px;
