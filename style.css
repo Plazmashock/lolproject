@@ -2,6 +2,7 @@ body {
   background-image: url(https://www.upcomer.com/wp-content/uploads/2021/12/LoL-Debonair-Brand-2021-Event-Pass-Skin-Bundle.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: top center;
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
   color: aquamarine;
@@ -119,4 +120,35 @@ select {
 }
 option {
   background-color: black;
+}
+
+.age,
+.country {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 960px) {
+  header {
+    font-size: 4rem;
+    margin: 0 1rem;
+  }
+  .survey {
+    width: 90vw;
+  }
+
+  .titles {
+    margin: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .bg-text {
+    max-width: 95%;
+  }
+  .ranks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
 }
