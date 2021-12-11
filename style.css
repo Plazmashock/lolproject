@@ -72,6 +72,8 @@ input {
 
 input::placeholder {
   color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: italic;
 }
 
 /* Target every input element that is NOT type radio */
@@ -84,11 +86,12 @@ button {
   padding: 8px 12px;
   border-radius: 8px;
   transition: 0.2s;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   background-color: transparent;
   font-weight: 800;
   color: white;
   background-color: transparent;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 button:hover {
@@ -99,5 +102,21 @@ button:hover {
 }
 
 button:active {
-  transform: scale(0.98);
+  transform: scale(0.95);
+}
+select {
+  outline: none;
+  background-color: transparent;
+  color: rgb(226, 217, 217);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+option {
+  background-color: black;
 }
