@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;1,100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header class="header">League of Legends eSport Survey</header>
+  <body>
+    <div class="bg"></div>
+    <div class="bg-text">
+      <h1>
+        Welcome to our eSport Recruitment Survey, where we will ask simple
+        questions to get general idea about you and your skill level in League
+        of Legends. The information you provide will be sent to our scouting
+        agents and in the case of their interest we will contact you as soon as
+        possible!
+      </h1>
+    </div>
+    <div class="survey">
+      <p class="titles">General Information</p>
+      <div class="name-surname">
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Surname" />
+      </div>
+      <div class="age">
+        <input type="number" placeholder="Age" />
+      </div>
+      <div class="country">
+        <input type="text" placeholder="Country" />
+      </div>
+      <p class="titles">League of Legends Information</p>
+      <div class="lol-username">
+        <input type="text" placeholder="Username" />
+      </div>
+      <p class="titles">Your Server</p>
+      <div class="servers">
+        <label for="euw">
+          <input id="server" value="euw" type="radio" name="server" />EUW
+        </label>
+        <label for="eune">
+          <input id="servers" value="eune" type="radio" name="server" />EUNE
+        </label>
+        <label for="na">
+          <input id="servers" value="na" type="radio" name="server" />NA
+        </label>
+        <label for="tr">
+          <input id="servers" value="tr" type="radio" name="server" />TR
+        </label>
+        <label for="ru">
+          <input id="servers" value="ru" type="radio" name="server" />RU
+        </label>
+      </div>
+      <!--
+          FIRST INDEPENDENT PROJECT
+        <img
+        class="ranks-image"
+        src="https://support-leagueoflegends.riotgames.com/hc/article_attachments/4406003723155/Tiers_only.png"
+        alt="Gold Rank"
+        />
+    -->
+      <p class="titles">Peak Rank</p>
+      <div class="ranks">
+        <label for="gold">
+          <input id="gold" value="gold" type="radio" name="peak-rank" />Gold
+        </label>
+        <label for="platinum">
+          <input
+            id="platinum"
+            value="platinum"
+            type="radio"
+            name="peak-rank"
+          />Platinum
+        </label>
+        <label for="diamond">
+          <input
+            id="diamond"
+            value="diamond"
+            type="radio"
+            name="peak-rank"
+          />Diamond
+        </label>
+        <label for="master">
+          <input
+            id="master"
+            value="master"
+            type="radio"
+            name="peak-rank"
+          />Master
+        </label>
+        <label for="grandmaster">
+          <input
+            id="grandmaster"
+            value="grandmaster"
+            type="radio"
+            name="peak-rank"
+          />Grandmaster
+        </label>
+        <label for="challenger">
+          <input
+            id="challenger"
+            value="challenger"
+            type="radio"
+            name="peak-rank"
+          />Challenger
+        </label>
+      </div>
+      <div>
+        <div class="main-role">
+          <p class="titles">Roles</p>
+          <label for="main-role"
+            >Main
+            <select name="main-role" id="main-role">
+              <option value="top">Top</option>
+              <option value="jungle">Jungle</option>
+              <option value="mid">Mid</option>
+              <option value="adc">ADC</option>
+              <option value="support">Support</option>
+            </select>
+          </label>
+        </div>
+        <div class="secondary-role">
+          <label for="secondary-role"
+            >Secondary
+            <select name="secondary-role" id="secondary-role">
+              <option value="top">Top</option>
+              <option value="jungle">Jungle</option>
+              <option value="mid">Mid</option>
+              <option value="adc">ADC</option>
+              <option value="support">Support</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="submit-button">
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

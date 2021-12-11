@@ -1,0 +1,58 @@
+body {
+  background-image: url(https://www.upcomer.com/wp-content/uploads/2021/12/LoL-Debonair-Brand-2021-Event-Pass-Skin-Bundle.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  color: aquamarine;
+  font-size: larger;
+  border-style: ridge;
+  border-color: rgba(155, 155, 155, 0.603);
+  border-width: 10px;
+  margin: 1px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 30px;
+}
+header {
+  font-family: "Barlow Condensed", sans-serif;
+  font-style: italic;
+  font-size: 100px;
+  color: aquamarine;
+  font-weight: 200;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+.bg-text {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 15px;
+  color: rgb(149, 170, 163);
+  font-weight: 200;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  padding-top: 10mm;
+  padding-right: 100mm;
+  padding-left: 100mm;
+}
+#challenger {
+  font-family: "Barlow Condensed", sans-serif;
+  color: yellow;
+}
+.submit-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.survey {
+  background-color: rgba(0, 0, 0, 0.342);
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+.titles {
+  font-size: 50px;
+  margin-bottom: -3px;
+}
