@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
+  background-size: cover;
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
   color: aquamarine;
@@ -111,7 +112,7 @@ select {
   color: rgb(226, 217, 217);
   font-family: "Barlow Condensed", sans-serif;
   font-size: 20px;
-  padding: 3px;
+  padding: 3px 3px 9px 3px;
   border-radius: 5px;
   text-align: center;
   font-weight: 800;
@@ -125,6 +126,13 @@ option {
 .age,
 .country {
   display: inline-block;
+}
+
+.servers label,
+.ranks label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 960px) {
